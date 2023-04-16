@@ -33,35 +33,35 @@
             this.pnCabeca = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.panel6 = new System.Windows.Forms.Panel();
-            this.btnAbrirCaixa = new System.Windows.Forms.Button();
-            this.panel7 = new System.Windows.Forms.Panel();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.btnVenda = new System.Windows.Forms.Button();
-            this.panel8 = new System.Windows.Forms.Panel();
-            this.btnRelatorio = new System.Windows.Forms.Button();
-            this.panel9 = new System.Windows.Forms.Panel();
-            this.btnEstoque = new System.Windows.Forms.Button();
             this.panel10 = new System.Windows.Forms.Panel();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.btnAdm = new System.Windows.Forms.Button();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.btnVenda = new System.Windows.Forms.Button();
+            this.panel7 = new System.Windows.Forms.Panel();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.btnAbrirCaixa = new System.Windows.Forms.Button();
+            this.panel9 = new System.Windows.Forms.Panel();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.btnEstoque = new System.Windows.Forms.Button();
+            this.panel8 = new System.Windows.Forms.Panel();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.btnRelatorio = new System.Windows.Forms.Button();
+            this.panel6 = new System.Windows.Forms.Panel();
             this.pnCabeca.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            this.panel7.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            this.panel2.SuspendLayout();
-            this.panel8.SuspendLayout();
-            this.panel9.SuspendLayout();
             this.panel10.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            this.panel7.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.panel9.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            this.panel8.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.SuspendLayout();
             // 
             // pnEsquerdo
@@ -105,18 +105,19 @@
             this.panel1.Controls.Add(this.panel8);
             this.panel1.Location = new System.Drawing.Point(0, 50);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(206, 557);
+            this.panel1.Size = new System.Drawing.Size(213, 557);
             this.panel1.TabIndex = 2;
             // 
-            // pictureBox2
+            // panel10
             // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(15, 12);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(45, 43);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 3;
-            this.pictureBox2.TabStop = false;
+            this.panel10.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
+            this.panel10.Controls.Add(this.pictureBox6);
+            this.panel10.Controls.Add(this.btnAdm);
+            this.panel10.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.panel10.Location = new System.Drawing.Point(4, 428);
+            this.panel10.Name = "panel10";
+            this.panel10.Size = new System.Drawing.Size(202, 68);
+            this.panel10.TabIndex = 7;
             // 
             // pictureBox6
             // 
@@ -128,61 +129,34 @@
             this.pictureBox6.TabIndex = 7;
             this.pictureBox6.TabStop = false;
             // 
-            // pictureBox5
+            // btnAdm
             // 
-            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(15, 12);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(45, 43);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox5.TabIndex = 6;
-            this.pictureBox5.TabStop = false;
+            this.btnAdm.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btnAdm.FlatAppearance.BorderSize = 0;
+            this.btnAdm.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnAdm.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
+            this.btnAdm.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAdm.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAdm.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.btnAdm.Location = new System.Drawing.Point(3, 3);
+            this.btnAdm.Name = "btnAdm";
+            this.btnAdm.Size = new System.Drawing.Size(196, 62);
+            this.btnAdm.TabIndex = 5;
+            this.btnAdm.TabStop = false;
+            this.btnAdm.Text = "     ADMIN";
+            this.btnAdm.UseVisualStyleBackColor = true;
+            this.btnAdm.Click += new System.EventHandler(this.btnAdm_Click);
             // 
-            // pictureBox4
+            // panel2
             // 
-            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(15, 12);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(45, 43);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox4.TabIndex = 5;
-            this.pictureBox4.TabStop = false;
-            // 
-            // panel6
-            // 
-            this.panel6.Location = new System.Drawing.Point(203, 50);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(997, 557);
-            this.panel6.TabIndex = 3;
-            // 
-            // btnAbrirCaixa
-            // 
-            this.btnAbrirCaixa.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.btnAbrirCaixa.FlatAppearance.BorderSize = 0;
-            this.btnAbrirCaixa.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.btnAbrirCaixa.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
-            this.btnAbrirCaixa.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAbrirCaixa.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAbrirCaixa.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btnAbrirCaixa.Location = new System.Drawing.Point(3, 3);
-            this.btnAbrirCaixa.Name = "btnAbrirCaixa";
-            this.btnAbrirCaixa.Size = new System.Drawing.Size(179, 62);
-            this.btnAbrirCaixa.TabIndex = 4;
-            this.btnAbrirCaixa.TabStop = false;
-            this.btnAbrirCaixa.Text = "               ABRIR CAIXA";
-            this.btnAbrirCaixa.UseVisualStyleBackColor = true;
-            this.btnAbrirCaixa.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // panel7
-            // 
-            this.panel7.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
-            this.panel7.Controls.Add(this.pictureBox2);
-            this.panel7.Controls.Add(this.btnAbrirCaixa);
-            this.panel7.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.panel7.Location = new System.Drawing.Point(4, 32);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(185, 68);
-            this.panel7.TabIndex = 5;
+            this.panel2.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
+            this.panel2.Controls.Add(this.pictureBox3);
+            this.panel2.Controls.Add(this.btnVenda);
+            this.panel2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.panel2.Location = new System.Drawing.Point(4, 131);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(202, 68);
+            this.panel2.TabIndex = 6;
             // 
             // pictureBox3
             // 
@@ -194,63 +168,64 @@
             this.pictureBox3.TabIndex = 4;
             this.pictureBox3.TabStop = false;
             // 
-            // panel2
-            // 
-            this.panel2.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
-            this.panel2.Controls.Add(this.pictureBox3);
-            this.panel2.Controls.Add(this.btnVenda);
-            this.panel2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.panel2.Location = new System.Drawing.Point(4, 131);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(185, 68);
-            this.panel2.TabIndex = 6;
-            // 
             // btnVenda
             // 
             this.btnVenda.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnVenda.FlatAppearance.BorderSize = 0;
-            this.btnVenda.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.btnVenda.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
+            this.btnVenda.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnVenda.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
             this.btnVenda.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnVenda.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnVenda.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.btnVenda.Location = new System.Drawing.Point(3, 3);
             this.btnVenda.Name = "btnVenda";
-            this.btnVenda.Size = new System.Drawing.Size(179, 62);
-            this.btnVenda.TabIndex = 4;
+            this.btnVenda.Size = new System.Drawing.Size(196, 62);
+            this.btnVenda.TabIndex = 2;
             this.btnVenda.TabStop = false;
             this.btnVenda.Text = "     VENDA";
             this.btnVenda.UseVisualStyleBackColor = true;
             this.btnVenda.Click += new System.EventHandler(this.button3_Click);
             // 
-            // panel8
+            // panel7
             // 
-            this.panel8.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
-            this.panel8.Controls.Add(this.pictureBox5);
-            this.panel8.Controls.Add(this.btnRelatorio);
-            this.panel8.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.panel8.Location = new System.Drawing.Point(4, 325);
-            this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(185, 68);
-            this.panel8.TabIndex = 7;
+            this.panel7.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
+            this.panel7.Controls.Add(this.pictureBox2);
+            this.panel7.Controls.Add(this.btnAbrirCaixa);
+            this.panel7.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.panel7.Location = new System.Drawing.Point(4, 32);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(202, 68);
+            this.panel7.TabIndex = 5;
             // 
-            // btnRelatorio
+            // pictureBox2
             // 
-            this.btnRelatorio.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.btnRelatorio.FlatAppearance.BorderSize = 0;
-            this.btnRelatorio.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.btnRelatorio.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
-            this.btnRelatorio.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnRelatorio.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRelatorio.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btnRelatorio.Location = new System.Drawing.Point(3, 3);
-            this.btnRelatorio.Name = "btnRelatorio";
-            this.btnRelatorio.Size = new System.Drawing.Size(179, 62);
-            this.btnRelatorio.TabIndex = 4;
-            this.btnRelatorio.TabStop = false;
-            this.btnRelatorio.Text = "                RELÁTORIOS";
-            this.btnRelatorio.UseVisualStyleBackColor = true;
-            this.btnRelatorio.Click += new System.EventHandler(this.btnRelatorio_Click);
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(9, 12);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(45, 43);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 3;
+            this.pictureBox2.TabStop = false;
+            // 
+            // btnAbrirCaixa
+            // 
+            this.btnAbrirCaixa.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btnAbrirCaixa.FlatAppearance.BorderSize = 0;
+            this.btnAbrirCaixa.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnAbrirCaixa.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
+            this.btnAbrirCaixa.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAbrirCaixa.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAbrirCaixa.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.btnAbrirCaixa.Location = new System.Drawing.Point(3, 3);
+            this.btnAbrirCaixa.Name = "btnAbrirCaixa";
+            this.btnAbrirCaixa.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
+            this.btnAbrirCaixa.Size = new System.Drawing.Size(196, 62);
+            this.btnAbrirCaixa.TabIndex = 1;
+            this.btnAbrirCaixa.TabStop = false;
+            this.btnAbrirCaixa.Text = "           ABRIR  / FECHAR    CAIXA";
+            this.btnAbrirCaixa.UseCompatibleTextRendering = true;
+            this.btnAbrirCaixa.UseVisualStyleBackColor = true;
+            this.btnAbrirCaixa.Click += new System.EventHandler(this.button1_Click);
             // 
             // panel9
             // 
@@ -260,55 +235,82 @@
             this.panel9.Cursor = System.Windows.Forms.Cursors.Hand;
             this.panel9.Location = new System.Drawing.Point(4, 225);
             this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(185, 68);
+            this.panel9.Size = new System.Drawing.Size(202, 68);
             this.panel9.TabIndex = 7;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
+            this.pictureBox4.Location = new System.Drawing.Point(15, 12);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(45, 43);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox4.TabIndex = 5;
+            this.pictureBox4.TabStop = false;
             // 
             // btnEstoque
             // 
             this.btnEstoque.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnEstoque.FlatAppearance.BorderSize = 0;
-            this.btnEstoque.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.btnEstoque.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
+            this.btnEstoque.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnEstoque.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
             this.btnEstoque.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnEstoque.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEstoque.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.btnEstoque.Location = new System.Drawing.Point(3, 3);
             this.btnEstoque.Name = "btnEstoque";
-            this.btnEstoque.Size = new System.Drawing.Size(179, 62);
-            this.btnEstoque.TabIndex = 4;
+            this.btnEstoque.Size = new System.Drawing.Size(196, 62);
+            this.btnEstoque.TabIndex = 3;
             this.btnEstoque.TabStop = false;
             this.btnEstoque.Text = "          ESTOQUE";
             this.btnEstoque.UseVisualStyleBackColor = true;
             this.btnEstoque.Click += new System.EventHandler(this.btnEstoque_Click);
             // 
-            // panel10
+            // panel8
             // 
-            this.panel10.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
-            this.panel10.Controls.Add(this.pictureBox6);
-            this.panel10.Controls.Add(this.btnAdm);
-            this.panel10.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.panel10.Location = new System.Drawing.Point(4, 428);
-            this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(185, 68);
-            this.panel10.TabIndex = 7;
+            this.panel8.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
+            this.panel8.Controls.Add(this.pictureBox5);
+            this.panel8.Controls.Add(this.btnRelatorio);
+            this.panel8.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.panel8.Location = new System.Drawing.Point(4, 325);
+            this.panel8.Name = "panel8";
+            this.panel8.Size = new System.Drawing.Size(202, 68);
+            this.panel8.TabIndex = 7;
             // 
-            // btnAdm
+            // pictureBox5
             // 
-            this.btnAdm.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.btnAdm.FlatAppearance.BorderSize = 0;
-            this.btnAdm.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.btnAdm.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
-            this.btnAdm.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAdm.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAdm.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btnAdm.Location = new System.Drawing.Point(3, 3);
-            this.btnAdm.Name = "btnAdm";
-            this.btnAdm.Size = new System.Drawing.Size(179, 62);
-            this.btnAdm.TabIndex = 4;
-            this.btnAdm.TabStop = false;
-            this.btnAdm.Text = "     ADMIN";
-            this.btnAdm.UseVisualStyleBackColor = true;
-            this.btnAdm.Click += new System.EventHandler(this.btnAdm_Click);
+            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
+            this.pictureBox5.Location = new System.Drawing.Point(15, 12);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(45, 43);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox5.TabIndex = 6;
+            this.pictureBox5.TabStop = false;
+            // 
+            // btnRelatorio
+            // 
+            this.btnRelatorio.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btnRelatorio.FlatAppearance.BorderSize = 0;
+            this.btnRelatorio.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnRelatorio.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
+            this.btnRelatorio.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRelatorio.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRelatorio.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.btnRelatorio.Location = new System.Drawing.Point(3, 3);
+            this.btnRelatorio.Name = "btnRelatorio";
+            this.btnRelatorio.Size = new System.Drawing.Size(196, 62);
+            this.btnRelatorio.TabIndex = 4;
+            this.btnRelatorio.TabStop = false;
+            this.btnRelatorio.Text = "                RELÁTORIOS";
+            this.btnRelatorio.UseVisualStyleBackColor = true;
+            this.btnRelatorio.Click += new System.EventHandler(this.btnRelatorio_Click);
+            // 
+            // panel6
+            // 
+            this.panel6.Location = new System.Drawing.Point(212, 50);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(988, 557);
+            this.panel6.TabIndex = 3;
             // 
             // frmPrincipal
             // 
@@ -325,16 +327,16 @@
             this.pnCabeca.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            this.panel7.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            this.panel2.ResumeLayout(false);
-            this.panel8.ResumeLayout(false);
-            this.panel9.ResumeLayout(false);
             this.panel10.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            this.panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            this.panel7.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            this.panel9.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            this.panel8.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.ResumeLayout(false);
 
         }
