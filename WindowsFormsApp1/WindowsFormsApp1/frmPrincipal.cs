@@ -35,13 +35,13 @@ namespace WindowsFormsApp1
 
         private void pnAbrirCaixa_Paint(object sender, PaintEventArgs e)
         {
-        
-            
+
+
         }
 
         private void pnAbrirCaixa_MouseClick(object sender, MouseEventArgs e)
         {
-      
+
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -52,6 +52,8 @@ namespace WindowsFormsApp1
             objForm.Visible = true;
             panel6.Controls.Add(objForm);
             objForm.Show();
+            objForm.Size = panel6.ClientSize; // preencher todo o painel com formulario filho quando for espandido
+            lblTela.Text = "ABRIR/FECHAR CAIXA";
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -62,6 +64,9 @@ namespace WindowsFormsApp1
             objForm.Visible = true;
             panel6.Controls.Add(objForm);
             objForm.Show();
+            objForm.Size = panel6.ClientSize; // preencher todo o painel com formulario filho quando for espandido
+            lblTela.Text = "VENDAS";
+
         }
 
         private void btnEstoque_Click(object sender, EventArgs e)
@@ -72,6 +77,8 @@ namespace WindowsFormsApp1
             objForm.Visible = true;
             panel6.Controls.Add(objForm);
             objForm.Show();
+            objForm.Size = panel6.ClientSize; // preencher todo o painel com formulario filho quando for espandido
+            lblTela.Text = "ESTOQUE";
         }
 
         private void btnRelatorio_Click(object sender, EventArgs e)
@@ -82,6 +89,8 @@ namespace WindowsFormsApp1
             objForm.Visible = true;
             panel6.Controls.Add(objForm);
             objForm.Show();
+            objForm.Size = panel6.ClientSize; // preencher todo o painel com formulario filho quando for espandido
+            lblTela.Text = "RELATÓRIOS";
 
         }
 
@@ -93,6 +102,12 @@ namespace WindowsFormsApp1
             objForm.Visible = true;
             panel6.Controls.Add(objForm);
             objForm.Show();
+            objForm.Size = panel6.ClientSize; // preencher todo o painel com formulario filho quando for espandido
+            lblTela.Text = "ADMINISTRADOR";
+        }
+
+        private void panel3_Paint(object sender, PaintEventArgs e)
+        {
 
         }
     }
