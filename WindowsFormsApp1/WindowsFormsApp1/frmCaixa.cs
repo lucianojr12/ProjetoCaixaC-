@@ -22,7 +22,7 @@ namespace WindowsFormsApp1
 
         }
 
-        private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
+        private void label8_Click(object sender, EventArgs e)
         {
 
         }
