@@ -92,6 +92,7 @@
             // 
             // lblTela
             // 
+            this.lblTela.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lblTela.AutoSize = true;
             this.lblTela.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTela.Location = new System.Drawing.Point(642, 13);
