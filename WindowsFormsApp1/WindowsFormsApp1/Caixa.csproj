@@ -137,5 +137,11 @@
   <ItemGroup>
     <None Include="Resources\caixa-registradora.png" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Caixa.Entity.cs\Caixa.Entity.csproj">
+      <Project>{a87df817-9f52-4bfd-9712-4e2c18a4e48b}</Project>
+      <Name>Caixa.Entity</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

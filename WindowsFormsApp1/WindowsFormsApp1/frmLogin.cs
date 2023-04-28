@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Caixa.Entity;
 
 namespace WindowsFormsApp1
 {
@@ -26,5 +27,22 @@ namespace WindowsFormsApp1
         {
 
         }
+
+        private void btnEntrar_Click(object sender, EventArgs e)
+        {
+            if (string.IsNullOrEmpty(txtUsuario.Text) || string.IsNullOrEmpty(txtSenha.Text))
+            {
+                Console.WriteLine("Digite Usuário e a Senha","",MessageBoxButtons.OK);
+                return;
+            }
+        }
+
+        private void Login()
+        {
+            LoginInfo login = new LoginInfo();
+            login.Usuario = txtUsuario.Text;
+            login.Usuario = txtUsuario.Text;
+        }
+
     }
 }

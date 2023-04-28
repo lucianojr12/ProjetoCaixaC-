@@ -31,11 +31,11 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmLogin));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnEsqueceuSenha = new System.Windows.Forms.Button();
+            this.btnEntrar = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.txtSenha = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtSenh = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.txtUsuario = new System.Windows.Forms.TextBox();
             this.btnSair = new System.Windows.Forms.Button();
@@ -56,11 +56,11 @@
             // panel1
             // 
             this.panel1.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.panel1.Controls.Add(this.button2);
-            this.panel1.Controls.Add(this.button1);
+            this.panel1.Controls.Add(this.btnEsqueceuSenha);
+            this.panel1.Controls.Add(this.btnEntrar);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.txtSenha);
-            this.panel1.Controls.Add(this.textBox2);
+            this.panel1.Controls.Add(this.txtSenh);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.txtUsuario);
             this.panel1.Controls.Add(this.pictureBox1);
@@ -70,32 +70,33 @@
             this.panel1.Size = new System.Drawing.Size(269, 458);
             this.panel1.TabIndex = 1;
             // 
-            // button2
+            // btnEsqueceuSenha
             // 
-            this.button2.BackColor = System.Drawing.SystemColors.Control;
-            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(58, 410);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(152, 23);
-            this.button2.TabIndex = 7;
-            this.button2.Text = "Esqueceu a Senha ?";
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.btnEsqueceuSenha.BackColor = System.Drawing.SystemColors.Control;
+            this.btnEsqueceuSenha.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnEsqueceuSenha.FlatAppearance.BorderSize = 0;
+            this.btnEsqueceuSenha.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEsqueceuSenha.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEsqueceuSenha.Location = new System.Drawing.Point(58, 410);
+            this.btnEsqueceuSenha.Name = "btnEsqueceuSenha";
+            this.btnEsqueceuSenha.Size = new System.Drawing.Size(152, 23);
+            this.btnEsqueceuSenha.TabIndex = 7;
+            this.btnEsqueceuSenha.Text = "Esqueceu a Senha ?";
+            this.btnEsqueceuSenha.UseVisualStyleBackColor = false;
+            this.btnEsqueceuSenha.Click += new System.EventHandler(this.button2_Click);
             // 
-            // button1
+            // btnEntrar
             // 
-            this.button1.BackColor = System.Drawing.SystemColors.Desktop;
-            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button1.Location = new System.Drawing.Point(94, 349);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(81, 38);
-            this.button1.TabIndex = 6;
-            this.button1.Text = "Entrar";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btnEntrar.BackColor = System.Drawing.SystemColors.Desktop;
+            this.btnEntrar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnEntrar.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.btnEntrar.Location = new System.Drawing.Point(94, 349);
+            this.btnEntrar.Name = "btnEntrar";
+            this.btnEntrar.Size = new System.Drawing.Size(81, 38);
+            this.btnEntrar.TabIndex = 6;
+            this.btnEntrar.Text = "Entrar";
+            this.btnEntrar.UseVisualStyleBackColor = false;
+            this.btnEntrar.Click += new System.EventHandler(this.btnEntrar_Click);
             // 
             // label2
             // 
@@ -117,15 +118,15 @@
             this.txtSenha.TabIndex = 4;
             this.txtSenha.Text = "Senha";
             // 
-            // textBox2
+            // txtSenh
             // 
-            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(39, 310);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(190, 24);
-            this.textBox2.TabIndex = 3;
-            this.textBox2.UseSystemPasswordChar = true;
+            this.txtSenh.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtSenh.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSenh.Location = new System.Drawing.Point(39, 310);
+            this.txtSenh.Name = "txtSenh";
+            this.txtSenh.Size = new System.Drawing.Size(190, 24);
+            this.txtSenh.TabIndex = 3;
+            this.txtSenh.UseSystemPasswordChar = true;
             // 
             // label1
             // 
@@ -193,10 +194,10 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtUsuario;
         private System.Windows.Forms.Label txtSenha;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TextBox txtSenh;
+        private System.Windows.Forms.Button btnEntrar;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnEsqueceuSenha;
         private System.Windows.Forms.Button btnSair;
     }
 }
